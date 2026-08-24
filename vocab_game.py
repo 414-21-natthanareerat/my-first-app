@@ -101,7 +101,7 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: You use 's _ i s _ o _ s to cut paper. ✂️ ",
+    "ข้อ 3: You use 's _ i s _ o _ s' to cut paper. ✂️ ",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
