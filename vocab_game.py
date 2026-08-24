@@ -101,19 +101,19 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: You use 'S _ i s _ o _ s to cut paper. ✂️ ",
-    value=st.session_state.ans1_val,
+    "ข้อ 3: You use 's _ i s _ o _ s to cut paper. ✂️ ",
+    value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
     "ข้อ 4: Monkey love to eat `b _ n _ _ a`. 🍌",
-    value=st.session_state.ans2_val,
+    value=st.session_state.ans4_val,
 )
 
 # อัปเดตค่าล่าสุดเข้าตัวแปร
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
-st.session_state.ans1_val = ans1
-st.session_state.ans2_val = ans2
+st.session_state.ans1_val = ans3
+st.session_state.ans2_val = ans4
 
 
 
